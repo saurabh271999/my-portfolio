@@ -522,36 +522,42 @@ input:focus, textarea:focus {
     .lang-framework img{
         width: 100px;
     }
-    .lang-framework .uper-skill-section{
+    .uper-skill-section{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
     }
-    .lang-framework .lower-skill-section{
+    .lower-skill-section{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .learning-div{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        top: -150px;
+        align-items: center;
+        justify-content: center;
+        /* top: -150px; */
     }
     .project-section {
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 100vh;
+        
     }
     .project-div{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 1300px;
+        top: 1600px;
         flex-wrap: wrap;
     }
     .project-heading{
-        
-        margin-top: 100px;
+        position: relative;
+        bottom: 70px;
         font-size: 40px;
         font-weight: 700;
     }
@@ -574,7 +580,7 @@ input:focus, textarea:focus {
         justify-content: center;
         flex-direction: column;
         position: relative;
-        top: 1500px;
+        top: 2000px;
     }
     .contact-div form input {
         width: 300px;
@@ -590,7 +596,7 @@ input:focus, textarea:focus {
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 1300px;
+        top: 1800px;
     }
     #back-link{
         position: absolute;
