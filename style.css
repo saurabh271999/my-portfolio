@@ -225,6 +225,10 @@ margin-left: 40%;
     display: flex;
     gap: 70px;
 }
+.uper-skill-section p{
+    font-size: 30px;
+    font-weight: 600;
+}
 .lower-skill-section{
     width: 100%;
     display: flex;
@@ -465,7 +469,7 @@ input:focus, textarea:focus {
         justify-content: center;
     }
     .intro{
-        margin-top: 150px;
+        margin-top: 1   50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -493,6 +497,8 @@ input:focus, textarea:focus {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        position: relative;
+        top: 100px;
     }
     .section-div a button{
         width: auto;
@@ -510,7 +516,7 @@ input:focus, textarea:focus {
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        top: 600px;
+        top: 800px;
         
     }
     .lang-framework img{
@@ -540,7 +546,7 @@ input:focus, textarea:focus {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 1100px;
+        top: 1300px;
         flex-wrap: wrap;
     }
     .project-heading{
@@ -568,28 +574,32 @@ input:focus, textarea:focus {
         justify-content: center;
         flex-direction: column;
         position: relative;
-        top: 1400px;
+        top: 1500px;
     }
     .contact-div form input {
         width: 300px;
         height: 50px;
     }
     .contact-div form textarea{
-        width: 500px;
+        width: 300px;
         height: 100px;
     }
     .copyright-div{
+        width: 100vh;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 1200px;
+        top: 1300px;
     }
-    .links-div{
+    #back-link{
         position: absolute;
-        display: flex;
-        top: 1000px;
+        top: 0;
+        margin: 2px;
+        padding: 2px    ;
     }
+
+    
    
     
 }
