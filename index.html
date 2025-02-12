@@ -10,14 +10,17 @@
 </head>
 
 <body>
+    
     <header id="main">
         <div class="nav-div">
+            
             <p style="font-size: 90px; position: absolute; top: 20px; left: 200px;" class="logo-p">&lt;/&gt;</p>
             
 
                 <nav class="navbar">
-                        
-                        <ul class="menu">
+                    <div class="burger-btn" onclick="togglemenu"><a href=""><img src="icons8-menu-30.png" alt=""></a></div>
+                    <div class="menu" id="menu">  
+                    <ul>
                     <a href="">
                         <li>Home</li>
                     </a>
@@ -25,12 +28,13 @@
                         <li>Projects</li>
                     </a>
                     <a href="#skill-section" >
-                        <li>Skills</li>
+                        <li id="skills">Skills</li>
                     </a>
                     <a href="#contact-section">
                         <li>contacts</li>
                     </a>
                 </ul>
+            </div>  
                 </nav>
            
         </div>
@@ -40,7 +44,7 @@
     
     <main>
         <span class="intro">
-            <h2>Hi, I am <img style="position: absolute; width: 30px;" src="icons8-hand-with-fingers-splayed-48.png"
+            <h2>Hi, I am <img style="position: absolute; width: 30px;" src="./images/icons8-hand-with-fingers-splayed-48.png"
                     alt=""></h2><br>
             <h1>Sourabh Bhardwaj</h1>
             <h3>Front-end developer</h3>
@@ -115,6 +119,7 @@
         <a href="https://glittering-pasca-5383c0.netlify.app/"><div class="project-1" id="project-box"><p>WHATSAPP CLONE</p></div></a>
         <a href="https://task-todo-listt.netlify.app/"><div class="project-2" id="project-box"><p id="project-name">TASK-TODO-LIST</p></div></a>
         <a href="https://github.com/saurabh271999/netflixClone"><div class="project-3" id="project-box"><p id="project-name">NETFLIX CLONE</p></div></a>
+        <a href="https://redcafee.netlify.app/"><div class="project-4" id="project-box"><p>The Red Cafe</p></div></a>
       </div>
     </section>
     <section id="contact-section">

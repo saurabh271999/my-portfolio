@@ -193,6 +193,10 @@ button {
     font-size: 10px;
 }
 #skill-section{
+    /* background: url(./image-2/icons8-it-100.png); */
+    background-repeat: no-repeat;
+    background-position:calc(100px) calc(200px);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,6 +206,9 @@ button {
 }
 
 .lang-framework{
+    /* background: url(./image-2/icons8-it-100.png); */
+    background-repeat: no-repeat;
+    background-position: calc(500px) calc(600px);
     position: relative;
     margin-top: 200px;
     display: flex;
@@ -344,6 +351,22 @@ margin-left: 35px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px black;  
 }
+.project-4{
+    background: url(./images/Screenshot-restraunt2025-02-12\ 235916.png);
+    background-position:inherit;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;  
+}
+
 .contacts-section{
     margin-top: 100px;
     width: 100%;
@@ -444,13 +467,36 @@ input:focus, textarea:focus {
     font-size: 10px;
     font-weight: 100;
   }
- 
+  .burger-btn {
+    display: flex;
+    align-items: center;  
+    justify-content: end;
+    position: absolute; 
+    right: 20px; 
+    top: 20px;
+    display: none; 
+}
+
+.burger-btn img {
+    width: 60px;
+    cursor: pointer;
+}
 @media (width<700px) {
+    
+    .burger-btn{
+        display: flex;
+    }
     
     .nav-div{
         display: flex;
         align-items: center;
         justify-content: center;
+        
+    }
+    .navbar{
+        /* display: none !important; */
+        display: flex;
+        flex-direction: row;
     }
     .logo-p{
         font-size: 30px !important;
@@ -462,6 +508,7 @@ input:focus, textarea:focus {
         justify-content: center;
         flex-direction: column;
         margin: 20px;
+        display: none !important;
     }
     main{
         display: flex;
@@ -564,6 +611,7 @@ input:focus, textarea:focus {
     .project-div #project-box{
         width: 200px;
         height: 200px;
+        background-position: center;
     }
     .project-name{
         position: absolute;
