@@ -129,11 +129,13 @@
             <br>
             <br>
             <p>click on button to download contact details</p>
-            <form action="">
-            <input type="text" class="input-name" placeholder="Enter your Name*">
-            <input type="email" class="input-email" placeholder="Enter Your Email*" >
-            <input type="text" class="input-number" placeholder="Enter you Number*">
-            <textarea placeholder="You message*" id="message-box" rows="5" cols="40"></textarea>
+            <form action="https://api.web3forms.com/submit"
+            method="POST">
+            <input type="hidden" name="access_key" value="061ae76c-0dce-405d-9e4b-e6d9178b0423">
+            <input type="text" name="fisrt_name" class="input-name" placeholder="Enter your Name*">
+            <input type="email" name="email" class="input-email" placeholder="Enter Your Email*" >
+            <input type="text" name="number" class="input-number" placeholder="Enter you Number*">
+            <textarea name="text_area" placeholder="You message*" id="message-box" rows="5" cols="40"></textarea>
             <button class="submit-button">Submit</button>
         </form>
         </div>
